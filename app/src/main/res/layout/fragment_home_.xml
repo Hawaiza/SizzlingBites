@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pizza" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bigshot_one"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textStyle="italic"
+                android:text="Popular Curations"
+                android:textSize="30dp" />
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/pizzaact"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="10dp"
+                            android:onClick="pizza"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:padding="10dp"
+                            android:background="@drawable/pizza1_c" />
+                        <ImageButton
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/desert5_c"
+                            android:padding="10dp" />
+                        <ImageButton
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/pizza2_c"
+                            android:padding="10dp" />
+                        <ImageButton
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/chinese1_c"
+                            android:padding="10dp" />
+                        <ImageButton
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/pizza3_c"
+                            android:padding="10dp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/chinese4_c"
+                            android:padding="10dp" />
+
+
+                        <ImageButton
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/chinese5_c"
+                            android:padding="10dp" />
+                        <ImageButton
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/shakes4_c"
+                            android:padding="10dp" />
+                        <ImageButton
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/pizza5_c"
+                            android:padding="10dp" />
+                        <ImageButton
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/desert1_c"
+                            android:padding="10dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bigshot_one"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textStyle="italic"
+                android:text="In The SpotLight"
+                android:textSize="30dp" />
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/chinese1_c"
+                        android:padding="10dp" />
+                    <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/pizza5_c"
+                        android:padding="10dp" />
+                    <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/shakes2_c"
+                        android:padding="10dp" />
+
+                    <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/chinese2_c"
+                        android:padding="10dp" />
+                    <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/pizza4_c"
+                        android:padding="10dp" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bigshot_one"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textStyle="italic"
+                android:text="Best Offers"
+                android:textSize="30dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shakes1_c"
+                        android:padding="10dp" />
+                    <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/chinese2_c"
+                        android:padding="10dp" />
+                    <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/pizza4_c"
+                        android:padding="10dp" />
+
+                    <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/shakes4_c"
+                        android:padding="10dp" />
+                    <ImageButton
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/chinese3_c"
+                        android:padding="10dp" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="331dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pizza" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
